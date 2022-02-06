@@ -17,6 +17,8 @@ for i in range(len(a)):
         a[i] = "i"
     if a[i] == "ý" or a[i] =="ỳ" or a[i] == "ỵ" or a[i] == "ỷ" or a[i] == "ỹ":
         a[i] = "y"
+    if a[i] == "đ":
+        a[i] = "d"
 #string to list or diff
 stri = ""
 stri = stri+ "''"
